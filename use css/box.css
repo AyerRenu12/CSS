@@ -1,0 +1,18 @@
+ h1,h2 {
+     color: mediumvioletred;
+     background-color: lightseagreen;
+     border:10px solid lime ;
+     padding: 50px;
+     text-align: center;
+      font-family:sans-serif ;
+      margin:10px ;
+ }
+ p {
+     color: navy;
+     background-color:violet;
+     font-size: 15px;
+     text-align: center;
+     border:10px dotted chocolate;
+     padding: 50px;
+     border-radius: 100px;
+ }
