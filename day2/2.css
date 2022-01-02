@@ -1,0 +1,30 @@
+h1 {
+   padding: 20px ;
+   border: 5px solid red;
+   margin: 20px solid green;
+ background-color:aqua;  
+ color: mediumblue;
+}
+h2 {
+    color:red;
+    padding: 50px 20px 70px 10px;
+    margin: 10px 40px 60px 8px;
+    border-top:10px solid firebrick;
+    border-right:25px double forestgreen;
+    border-bottom:15px dotted gold;
+    border-left: 10px double hotpink;
+
+}
+h3 {
+    padding: 0px 20px 10px 0px;
+    margin: 0px 0px 10px 5px ;
+    border: 20px double gold;
+    background-color: grey;
+}
+   h4 {
+       color:indigo;
+       padding: 20px 0px 10px 50px ;
+       margin: 2opx;
+       border:  5px dotted black;
+       background-color: lightsalmon;
+   }
