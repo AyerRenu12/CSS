@@ -1,0 +1,31 @@
+/*simple*/
+.section {
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(red,yellow);
+}
+/*angle*/
+.sec {
+    
+    height: 300px;
+    width: 250px;
+    background-image: linear-gradient(50deg, pink,green);
+}
+/*direction*/
+.dir {
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to right,blue,purple);
+}
+/*multicolor*/
+.pg {
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(45deg,gold,purple,red,blue);
+}
+/*tranparenccy*/
+.sam {
+    height: 300px;
+    width: 250px;
+    background-image: linear-gradient(to right,rgb(200,10,100,1),rgba(255,0,0,1));
+}
