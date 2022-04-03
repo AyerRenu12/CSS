@@ -1,0 +1,57 @@
+.container {
+    max-width: 750px;
+    margin: 100px auto;
+    border: 5px solid black;
+    box-shadow: 40px 40px 15px gray;
+    padding: 50px;
+    background-color: palegreen;
+   
+}
+/*this is for first line pseudo element*/
+p::first-line {
+ color: darkred;
+ background-color: aquamarine;
+ font-size: 30px;
+ word-spacing: 20px;
+ letter-spacing: 10px;
+ text-decoration: none;
+ text-transform: uppercase;
+ line-height: 50px;
+}
+/*this is for first letterpseudo element*/
+p::first-letter {
+    font-size: 100px;
+color: crimson;
+}
+/*marker*/
+::marker {
+    color: red;
+    font-size: 23px;
+}
+/*for selection*/
+::selection {
+    color: darkgray;
+    background-color: aqua;
+    
+}
+/*before and after */
+h1::before {
+    content: 'S';
+}
+h1::after {
+    content: 'Ayer';
+}
+h1 {
+    background-color: crimson;
+    color: beige;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 250px;
+    width: 150px
+
+    
+    
+    
+}
