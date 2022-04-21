@@ -28,5 +28,6 @@ foreach($colors as $value)
 {
     // echo"$value";
     echo 'hello';
+    
 }
 ?>
