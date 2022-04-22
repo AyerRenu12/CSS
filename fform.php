@@ -16,11 +16,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
   }
 }
-    
-  
-
-
 ?>
+
 <!DOCTYPE HTML>  
 <html>
 <head>
@@ -28,9 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 .error {color:red;}
 </style>
 </head>
-<body>  
-
-
+<body>
 
 <form method="post" action="<?php echo ($_SERVER["PHP_SELF"]);?>">  
   Name: <input type="text" name="name">
@@ -42,10 +37,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <input type="submit">
   <br>
   
-  
 </form>
-
-
-
 </body>
 </html
