@@ -1,17 +1,17 @@
 <?php
-
+//define variables and set to empty
 $nameErr = $emailErr  = "";
 $name = $email  = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["name"])) {
-    $nameErr = "*Name is required";
+    $nameErr = "*Name is required";//error text
   } else {
     $name = $_POST["name"];
   }
   
   if (empty($_POST["email"])) {
-    $emailErr = "*Email is required";
+    $emailErr = "*Email is required";//error text
   } else {
     $email = $_POST["email"];
   }
@@ -26,7 +26,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </style>
 </head>
 <body>
-
 <form method="post" action="<?php echo ($_SERVER["PHP_SELF"]);?>">  
   Name: <input type="text" name="name">
   <span class="error"> <?php echo $nameErr;?></span>
@@ -35,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <span class="error"> <?php echo $emailErr;?></span>
   <br> <br>
   <input type="submit">
-  <br>
+  
   
 </form>
 </body>
